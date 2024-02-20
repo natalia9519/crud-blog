@@ -1,0 +1,119 @@
+.div-recipes {
+    max-width: 20rem;
+    border: 1rem double #722A48;
+    background-color: #A15371;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 5px;
+    height: auto;
+    margin: 1rem;
+}
+
+.div-recipes h2 {
+    text-align: center;
+    color: #FFC6D5;
+    text-shadow: 2px 2px 2px #43001E;
+}
+
+.article-recipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #ffffff6e;
+    margin-top: 2rem;
+
+}
+
+.h1-recipes {
+    color: #A15371;
+    text-shadow: 2px 2px 2px #FFFFFF;
+    padding: 2rem 0;
+    font-size: 4rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+li a {
+    color: #A15371 !important;
+    text-decoration: none !important;
+}
+
+.div-part-recipes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+}
+
+
+@media screen and (max-width: 1232px) {
+    .div-recipes {
+        max-width: 35rem;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .div-recipes h2 {
+        text-align: center;
+    }
+
+    .article-recipes {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .h1-recipes {
+        padding: 2rem 0;
+        font-size: 3rem;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .div-part-recipes {
+
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .div-part-recipes {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 1.5rem;
+    }
+
+   .div-part-recipes .nav {
+        width: 50vw;
+        height: 55vh;
+    }
+
+    .div-part-recipes .nav ul li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50vw;
+    }
+
+    .article-recipes {
+        width: 60vw
+    }
+
+    .pagination {
+        width: 60vw
+    }
+    .image-blog{
+        width: 100px;
+    }
+
+}

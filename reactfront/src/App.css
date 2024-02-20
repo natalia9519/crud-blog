@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #FFc6d5 !important;
+}
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+.table-primary tr th{
+background-color: #43001E !important;
+color:#FFFFFF;
+}
+.btn-info {
+  --bs-btn-color: #ffffff !important;
+  --bs-btn-bg: #FFA7C5 !important;
+}
+.btn-primary {
+   --bs-btn-bg: #722A48 !important;
+}
+.form-control {
+  width: 950px !important;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/*ESTO HACE QUE UNA IMAGEN SE MUEVA*/
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #43001E;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .table-responsive{
+    display:none;
+  }
+}

@@ -1,0 +1,32 @@
+.form-h2{
+    color: #A15371;
+    text-shadow: 2px 2px 2px #FFFFFF;
+    padding: 1rem 0;
+    font-size: 3rem;
+}
+.tittles{
+    color:#A15371;
+    text-shadow: 2px 2px 2px #FFFFFF;
+    font-size: 2rem;
+}
+.btn-form{
+    color: #FFFFFF;
+    background-color: #43001E;
+     border-radius: 3rem;
+     margin-top: 20px;
+     padding: 5px;
+     text-decoration: none;
+}
+.btn-form:hover{
+    color:#43001E;
+    background-color: #FFFFFF;
+   
+}
+@media screen and (max-width:1000px){
+    .form-control{
+        width: 70vw !important;
+    }
+    .form-h2{
+        font-size: 2rem;
+    }
+}
